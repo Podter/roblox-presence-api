@@ -42,6 +42,6 @@ pnpm start
 
 Deploying on serverless functions (like Vercel) isn't support. noblox.js always throw **module not found** error.
 
-I think noblox.js's native modules are missing in serverless functions.
+I think noblox.js native modules are missing in serverless functions.
 
 So you have to deploy on full Node.js environment like VPS or Docker.
