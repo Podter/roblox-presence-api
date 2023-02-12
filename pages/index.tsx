@@ -5,7 +5,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
   return {
     redirect: {
       destination: "https://github.com/Podter/roblox-presence-api",
-      permanent: true,
+      permanent: false,
     },
   };
 };
