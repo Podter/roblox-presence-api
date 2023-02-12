@@ -18,7 +18,7 @@ export default async function handler(
       const presences = (await noblox.getPresences([+id])).userPresences[0];
 
       return res.status(200).json({
-        message: "roblox-presence-api",
+        message: "Success",
         data: {
           ...presences,
           userPresenceType:
